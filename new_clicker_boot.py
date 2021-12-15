@@ -2,8 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
-import sqlite3
-from sqlite3 import Error
 import json
 from save_data import save_data
 
