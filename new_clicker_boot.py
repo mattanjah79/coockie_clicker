@@ -7,10 +7,6 @@ from sqlite3 import Error
 import json
 from save_data import save_data
 
-
-
-
-
 s = Service("C:/Users/pcm9x/Desktop/Pliki/chrome web driver/chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 
